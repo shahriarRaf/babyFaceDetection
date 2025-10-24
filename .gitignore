@@ -1,0 +1,22 @@
+# Firebase and Google service account keys
+service-account.json
+google-services.json
+
+# Model weights (use Git LFS if you want to track these instead)
+*.pt
+*.onnx
+*.weights
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+desktop.ini
