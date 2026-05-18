@@ -1,22 +1,25 @@
-# Firebase and Google service account keys
+# Credentials (NEVER commit these!)
 service-account.json
 google-services.json
 
-# Model weights (use Git LFS if you want to track these instead)
+# Model weights (too large)
+baby_detect/weights/
 *.pt
-*.onnx
-*.weights
 
-# Python
+# Python cache
 __pycache__/
-*.py[cod]
-venv/
-.env
+*.pyc
+*.pyo
+*.egg-info/
 
-# Editor
+# IDE
 .vscode/
 .idea/
 
 # OS
+.DS_Store
 Thumbs.db
-desktop.ini
+
+# Environment
+venv/
+.env
