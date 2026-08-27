@@ -95,24 +95,56 @@ yolo task=detect mode=train model=yolo11n.pt data=data.yaml epochs=150 batch=16 
 
 ## License
 MIT License
-<img width="1920" height="1920" alt="val_batch2_pred" src="https://github.com/user-attachments/assets/eb8ddf57-b189-445d-8b8a-2607829087d8" />
-<img width="1920" height="1920" alt="val_batch2_labels" src="https://github.com/user-attachments/assets/48e5141e-e6f6-4e4d-bda6-3ff50c018449" />
-<img width="1920" height="1920" alt="val_batch1_pred" src="https://github.com/user-attachments/assets/40c966bc-71c4-48c4-8380-0a0e73ba3486" />
-<img width="1920" height="1920" alt="val_batch1_labels" src="https://github.com/user-attachments/assets/c56c7a68-7479-4a6b-8135-67f64425c4d2" />
-<img width="1920" height="1920" alt="val_batch0_pred" src="https://github.com/user-attachments/assets/bf177b99-7d8a-480b-8d3f-48b2edd4fe0a" />
-<img width="1920" height="1920" alt="val_batch0_labels" src="https://github.com/user-attachments/assets/5755149c-e326-4dc8-9a5d-3d8e807b9f1d" />
-<img width="1920" height="1920" alt="train_batch13022" src="https://github.com/user-attachments/assets/951de17c-c63a-4c7e-9e34-1f991f5695a7" />
-<img width="1920" height="1920" alt="train_batch13021" src="https://github.com/user-attachments/assets/2c267284-0e4c-4668-ab38-8370d24d5a4a" />
-<img width="1920" height="1920" alt="train_batch13020" src="https://github.com/user-attachments/assets/2c289631-05d6-49df-a5a8-77c49657d3f5" />
-<img width="1920" height="1920" alt="train_batch2" src="https://github.com/user-attachments/assets/f762658d-632a-4b3f-9f5e-1709d2f6017d" />
-<img width="1920" height="1920" alt="train_batch1" src="https://github.com/user-attachments/assets/b40cb9ca-2d00-471c-9b3e-5ab6fd2643dc" />
-<img width="1920" height="1920" alt="train_batch0" src="https://github.com/user-attachments/assets/2a8efc86-19ed-40ce-bd3e-86859626b50f" />
-<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/bddcc796-bd0b-454e-aa31-eee9507bdf09" />
-<img width="1600" height="1600" alt="labels" src="https://github.com/user-attachments/assets/41e0ce9e-ed5b-47b0-aafb-d80986567453" />
-<img width="3000" height="2250" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/35532e52-fa1f-490a-8837-7e93415fbf81" />
-<img width="3000" height="2250" alt="confusion_matrix" src="https://github.com/user-attachments/assets/5ad62ca1-33a3-4eb3-a992-9a97b76f8239" />
-<img width="2250" height="1500" alt="BoxR_curve" src="https://github.com/user-attachments/assets/f25b705b-824d-4fa2-956e-85f841aa3651" />
-<img width="2250" height="1500" alt="BoxPR_curve" src="https://github.com/user-attachments/assets/bc8bbb93-3f3e-48e7-b734-333db3faba9b" />
-<img width="2250" height="1500" alt="BoxP_curve" src="https://github.com/user-attachments/assets/55d4a666-f84d-4b1b-bf1b-f2b31aac5c2b" />
-<img width="2250" height="1500" alt="BoxF1_curve" src="https://github.com/user-attachments/assets/6f4d0f3a-31fb-4ef1-9c5d-60570566d1d7" />
 
+---
+
+## Model Training & Performance Visualization
+
+### Dataset Overview
+![Dataset Labels Distribution](https://github.com/user-attachments/assets/41e0ce9e-ed5b-47b0-aafb-d80986567453)
+
+### Training Batch Samples
+These visualizations show sample training batches as seen by the model during training:
+
+![Training Batch 0](https://github.com/user-attachments/assets/2a8efc86-19ed-40ce-bd3e-86859626b50f)
+![Training Batch 1](https://github.com/user-attachments/assets/b40cb9ca-2d00-471c-9b3e-5ab6fd2643dc)
+![Training Batch 2](https://github.com/user-attachments/assets/f762658d-632a-4b3f-9f5e-1709d2f6017d)
+![Training Batch 13020](https://github.com/user-attachments/assets/2c289631-05d6-49df-a5a8-77c49657d3f5)
+![Training Batch 13021](https://github.com/user-attachments/assets/2c267284-0e4c-4668-ab38-8370d24d5a4a)
+![Training Batch 13022](https://github.com/user-attachments/assets/951de17c-c63a-4c7e-9e34-1f991f5695a7)
+
+### Validation Results
+Validation set predictions and ground truth labels:
+
+![Validation Batch 0 - Labels](https://github.com/user-attachments/assets/5755149c-e326-4dc8-9a5d-3d8e807b9f1d)
+![Validation Batch 0 - Predictions](https://github.com/user-attachments/assets/bf177b99-7d8a-480b-8d3f-48b2edd4fe0a)
+![Validation Batch 1 - Labels](https://github.com/user-attachments/assets/c56c7a68-7479-4a6b-8135-67f64425c4d2)
+![Validation Batch 1 - Predictions](https://github.com/user-attachments/assets/40c966bc-71c4-48c4-8380-0a0e73ba3486)
+![Validation Batch 2 - Labels](https://github.com/user-attachments/assets/48e5141e-e6f6-4e4d-bda6-3ff50c018449)
+![Validation Batch 2 - Predictions](https://github.com/user-attachments/assets/eb8ddf57-b189-445d-8b8a-2607829087d8)
+
+### Performance Metrics
+
+#### Confusion Matrix
+Standard confusion matrix showing classification accuracy:
+![Confusion Matrix](https://github.com/user-attachments/assets/5ad62ca1-33a3-4eb3-a992-9a97b76f8239)
+
+Normalized confusion matrix (percentage-based):
+![Confusion Matrix Normalized](https://github.com/user-attachments/assets/35532e52-fa1f-490a-8837-7e93415fbf81)
+
+#### Training & Validation Curves
+Overall training results across epochs:
+![Training Results](https://github.com/user-attachments/assets/bddcc796-bd0b-454e-aa31-eee9507bdf09)
+
+#### Precision-Recall Curves
+![Box Precision Curve](https://github.com/user-attachments/assets/55d4a666-f84d-4b1b-bf1b-f2b31aac5c2b)
+![Box Precision-Recall Curve](https://github.com/user-attachments/assets/bc8bbb93-3f3e-48e7-b734-333db3faba9b)
+
+#### F1 & Recall Curves
+![Box F1 Curve](https://github.com/user-attachments/assets/6f4d0f3a-31fb-4ef1-9c5d-60570566d1d7)
+![Box Recall Curve](https://github.com/user-attachments/assets/f25b705b-824d-4fa2-956e-85f841aa3651)
+
+---
+
+## Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue for bug reports and feature requests.
